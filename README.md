@@ -1,1 +1,54 @@
-# prepa-exe-classe2-MVC-CRUD-procedural
+# Exe-classe2-MVC-CRUD-procedural
+
+## Création du premier CRUD
+
+Vous allez devoir créer votre premier `CRUD` complet sur une table :
+
+- **C**reate
+- **R**eade
+- **U**pdate
+- **D**elete
+
+### Pour commencer
+
+- Faites un `fork` de ce repository sur votre compte github.
+- Clonez-le sur votre ordinateur.
+- Liez le projet à l'upstream (ce repository)
+- Créez une branche de travail
+- Créez un dossier avec votre prénom dans `stagiaires`
+- Copiez-y (dans `stagiaires/<votre_prénom>`) tous mes fichiers et dossiers **SANS** les modifier/déplacer (à part `stagiaires`, `.git`, etc...) !
+- Importez la base de donnée `data/crud_mvc_procedural_structure_v1_datas.sql` dans `MySQL` ou `MariaDB` en adaptant le `port` dans **votre** `config-dev.php`
+
+### La base de donnée
+
+Elle se nomme `crud_mvc_procedural` et elle contient 2 tables :
+
+- `user`
+- `article`
+
+#### `user`
+
+- `iduser`
+- `login`
+- `username`
+- `userpwd`
+- `usermail`
+- `uniqid`
+- `active`
+- `dateinscription`
+
+#### `article`
+
+- `idarticle`
+- `title`
+- `slug`
+- `articletext`
+- `articledatecreated`
+- `articlepublished`
+- `articledatepublished`
+- `user_iduser`
+
+### Schéma
+
+![crud DB](data/crud_mvc_procedural.png)
+
