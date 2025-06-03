@@ -9,11 +9,20 @@ Vous allez devoir créer votre premier `CRUD` complet sur une table :
 - **U**pdate
 - **D**elete
 
+Le tout dans une structure de type `MVC` 'maison', pour bien comprendre les principes, tout en restant en procédural pour le moment.
+
+### Objectifs
+
+- Avoir une partie publique affichant les articles publiés par date de publication descendante.
+- Avoir un système de connexion pour accèder à l'administration
+- Pouvoir y afficher, modifier, supprimer ou créer des articles.
+
+
 ### Pour commencer
 
 - Faites un `fork` de ce repository sur votre compte github.
 - Clonez-le sur votre ordinateur.
-- Liez le projet à l'upstream (ce repository)
+- Liez le projet à `upstream` (ce repository)
 - Créez une branche de travail
 - Créez un dossier avec votre prénom dans `stagiaires`
 - Copiez-y (dans `stagiaires/<votre_prénom>`) tous mes fichiers et dossiers **SANS** les modifier/déplacer (à part `stagiaires`, `.git`, etc...) !
@@ -51,4 +60,8 @@ Elle se nomme `crud_mvc_procedural` et elle contient 2 tables :
 ### Schéma
 
 ![crud DB](data/crud_mvc_procedural.png)
+
+Il y a une relation **one to many** de la table `user` vers la table `article`.
+
+
 
