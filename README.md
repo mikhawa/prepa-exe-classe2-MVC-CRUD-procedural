@@ -70,6 +70,16 @@ Elle se nomme `crud_mvc_procedural` et elle contient 2 tables :
 
 Il y a une relation **one to many** de la table `user` vers la table `article`.
 
+### Users
+
+Les deux premiers sont respectivement le login et le mot de passe non haché.
+
+| Login | Mot de passe | Nom complet | Email | UniqID |
+|-------|--------------|-------------|-------|--------|
+|`firstUser`|`firstUser`|`Stef Jansens`| `s.jansens@gmail.com`|`mvc683c6765f34168.54713920`|
+|`secondUser`|`secondUser`|`Medhi Ben Halima`| `md.halima@gmail.com`|`mvc683c69784afef0.29382054`|
+|`thirdUser`|`thirdUser`|`Sylvia Serenna`| `serenna.sy@gmail.com`|`mvc683c69f51e0663.60425661`|
+
 ### Attente
 
 Pour créer ce crud, inutile de s'attarder sur le design, imitez l'exercice fait en classe :
