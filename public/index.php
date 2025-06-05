@@ -26,10 +26,11 @@ try{
     die($e->getMessage());
 }
 
-// Chargement du routeur
+// Si nous sommes connectés
 if(isset($_SESSION['login'])){
     require_once "../controller/PrivateController.php";
 }else{
+    // sinon
     require_once "../controller/PublicController.php";
 }
 

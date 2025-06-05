@@ -15,8 +15,11 @@ Le tout dans une structure de type `MVC` 'maison', pour bien comprendre les prin
 
 ![MVC](data/mvc.png)
 
+
+
 ### Objectifs
 
+- Utiliser un dossier `public` qui contiendra un contrôleur frontal.
 - Avoir une partie publique affichant les articles publiés par date de publication descendante.
 - Avoir un système de connexion pour accèder à l'administration
 - Pouvoir y afficher, modifier, supprimer ou créer des articles.
@@ -66,6 +69,12 @@ Elle se nomme `crud_mvc_procedural` et elle contient 2 tables :
 ![crud DB](data/crud_mvc_procedural.png)
 
 Il y a une relation **one to many** de la table `user` vers la table `article`.
+
+### Attente
+
+Pour créer ce crud, inutile de s'attarder sur le design, imitez l'exercice fait en classe :
+
+https://github.com/WebDevCF2m2025/first-crud-c2-exemple
 
 
 
