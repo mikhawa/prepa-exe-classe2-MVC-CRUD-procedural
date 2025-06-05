@@ -11,6 +11,10 @@ Vous allez devoir créer votre premier `CRUD` complet sur une table :
 
 Le tout dans une structure de type `MVC` 'maison', pour bien comprendre les principes, tout en restant en procédural pour le moment.
 
+## Rappel du système MVC
+
+![MVC](data/mvc.png)
+
 ### Objectifs
 
 - Avoir une partie publique affichant les articles publiés par date de publication descendante.
