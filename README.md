@@ -76,5 +76,13 @@ Pour créer ce crud, inutile de s'attarder sur le design, imitez l'exercice fait
 
 https://github.com/WebDevCF2m2025/first-crud-c2-exemple
 
+Voici ce que l'administration devra faire:
 
+- Ajouter des articles
+- Modifier des articles
+- Supprimer des articles
+
+Exemple sans le design:
+
+![admin](data/admin.png)
 
